@@ -1,0 +1,703 @@
+,age,gender,ethnicity,jundice,austim,contry_of_res,used_app_before,result,Class/ASD
+0,26,f,American,no,no,United States,no,6,NO
+1,24,m,Latino,no,yes,Brazil,no,5,NO
+2,27,m,Latino,yes,yes,Spain,no,8,YES
+3,35,f,American,no,yes,United States,no,6,NO
+4,40,f,Middle Eastern,no,no,Egypt,no,2,NO
+5,36,m,American,yes,no,United States,no,9,YES
+6,17,f,American,no,no,United States,no,2,NO
+7,64,m,White European,no,no,New Zealand,no,5,NO
+8,29,m,American,no,no,United States,no,6,NO
+9,17,m,Asian,yes,yes,Bahamas,no,8,YES
+10,33,m,American,no,no,United States,no,10,YES
+11,18,f,Middle Eastern,no,no,Burundi,no,6,NO
+12,17,f,Black,no,no,Bahamas,no,6,NO
+13,17,m,White European,no,no,Austria,no,4,NO
+14,17,f,South American,no,no,Argentina,no,4,NO
+15,18,m,Middle Eastern,no,yes,New Zealand,no,6,NO
+16,31,m,Middle Eastern,no,no,Jordan,no,5,NO
+17,30,m,White European,no,no,Ireland,no,2,NO
+18,35,f,Middle Eastern,no,yes,United Arab Emirates,no,3,NO
+19,34,m,Middle Eastern,yes,no,United Arab Emirates,no,3,NO
+20,38,m,Middle Eastern,no,no,United Arab Emirates,no,3,NO
+21,27,f,Black,no,no,United Arab Emirates,no,0,NO
+22,27,m,Middle Eastern,no,no,Afghanistan,no,5,NO
+23,42,m,Middle Eastern,yes,no,United Arab Emirates,no,2,NO
+24,43,m,Middle Eastern,no,no,Lebanon,no,5,NO
+25,24,f,South Asian,yes,no,Afghanistan,no,3,NO
+26,40,m,Pasifika,yes,yes,United Arab Emirates,no,1,NO
+27,40,m,Middle Eastern,yes,yes,Afghanistan,no,1,NO
+28,48,m,Black,no,no,New Zealand,no,1,NO
+29,31,m,Middle Eastern,no,no,United Kingdom,no,4,NO
+30,18,m,White European,no,no,United Kingdom,no,0,NO
+31,37,f,American,no,yes,United States,no,7,YES
+32,55,f,Others,no,no,New Zealand,no,4,NO
+33,18,f,White European,yes,no,South Africa,no,10,YES
+34,18,f,White European,no,no,South Africa,no,10,YES
+35,55,m,White European,no,no,New Zealand,no,1,NO
+36,50,m,Middle Eastern,no,no,United Arab Emirates,no,6,NO
+37,34,f,White European,no,no,New Zealand,no,6,NO
+38,53,f,White European,no,no,New Zealand,no,7,YES
+39,35,f,American,no,yes,United States,no,8,YES
+40,20,f,Latino,yes,no,Italy,no,7,YES
+41,28,f,Asian,no,no,Pakistan,no,2,NO
+42,34,f,Middle Eastern,no,yes,Egypt,no,3,NO
+43,36,f,American,yes,yes,United States,no,4,NO
+44,27,f,White European,no,no,New Zealand,no,8,YES
+45,53,f,White European,no,no,New Zealand,no,7,YES
+46,24,f,Pasifika,no,no,New Zealand,no,5,NO
+47,24,m,Pasifika,no,no,New Zealand,no,4,NO
+48,55,m,White European,no,no,New Zealand,no,3,NO
+49,30,f,Asian,no,no,Bangladesh,no,6,NO
+50,21,f,Latino,no,no,Chile,no,3,NO
+51,35,f,Black,no,no,France,no,10,YES
+52,383,f,Pasifika,no,no,New Zealand,no,1,NO
+53,21,m,Latino,no,yes,Brazil,no,8,YES
+54,47,m,American,no,no,United States,no,10,YES
+55,30,f,Asian,no,no,China,no,9,YES
+56,28,f,White European,no,no,Australia,no,8,YES
+57,43,f,White European,no,no,Australia,no,9,YES
+58,32,f,South Asian,no,yes,Canada,no,3,NO
+59,44,f,White European,no,no,Australia,no,5,NO
+60,20,f,Others,no,no,Canada,no,8,YES
+61,20,f,Others,no,no,Canada,yes,7,YES
+63,19,m,White European,no,no,Australia,no,5,NO
+64,29,f,White European,no,no,Australia,no,9,YES
+65,21,m,American,no,no,United States,no,3,NO
+66,27,m,Middle Eastern,no,no,France,no,2,NO
+67,21,m,American,no,no,United States,no,6,NO
+68,35,m,Middle Eastern,no,no,Saudi Arabia,no,4,NO
+69,42,m,Black,no,no,New Zealand,no,1,NO
+70,29,f,South Asian,no,no,New Zealand,no,5,NO
+71,58,m,Asian,no,no,New Zealand,no,3,NO
+72,21,m,American,no,no,United States,no,6,NO
+73,21,m,American,no,no,United States,no,6,NO
+74,37,f,American,no,yes,United States,no,6,NO
+75,21,m,American,no,no,United States,no,7,YES
+76,20,m,American,no,no,United States,no,3,NO
+77,33,f,American,no,yes,United States,no,8,YES
+78,20,m,American,no,no,United States,no,4,NO
+79,45,f,Middle Eastern,yes,no,Jordan,no,2,NO
+80,32,m,South Asian,yes,yes,Afghanistan,no,5,NO
+81,30,m,Middle Eastern,no,no,Jordan,no,3,NO
+82,33,f,White European,no,yes,Netherlands,no,10,YES
+83,42,f,Middle Eastern,no,no,Jordan,no,4,NO
+84,17,f,White European,no,no,New Zealand,no,2,NO
+85,27,f,American,no,no,United States,no,3,NO
+86,35,f,Middle Eastern,no,yes,Afghanistan,no,8,YES
+87,37,m,White European,no,no,United Kingdom,no,1,NO
+88,30,f,White European,no,yes,United Kingdom,no,4,NO
+89,29,f,White European,no,no,New Zealand,no,9,YES
+90,17,f,White European,no,yes,Romania,no,4,NO
+92,22,f,Pasifika,no,no,New Zealand,no,5,NO
+93,19,f,Latino,no,yes,Brazil,no,8,YES
+94,42,f,White European,no,yes,Sweden,no,8,YES
+95,37,f,White European,no,no,United Kingdom,no,4,NO
+96,28,f,White European,no,no,Australia,no,4,NO
+97,22,m,Others,no,no,New Zealand,no,4,NO
+98,26,f,Pasifika,no,no,Tonga,no,3,NO
+99,21,m,Pasifika,no,no,Oman,no,1,NO
+100,26,f,South Asian,no,no,India,no,3,NO
+101,39,f,Asian,no,no,Philippines,no,2,NO
+102,26,m,Asian,no,no,New Zealand,no,3,NO
+103,26,m,Asian,no,no,India,no,5,NO
+104,21,m,South Asian,no,no,India,no,4,NO
+105,25,m,Asian,no,no,India,no,0,NO
+106,26,m,South Asian,no,no,New Zealand,no,6,NO
+107,30,f,American,no,no,United States,no,7,YES
+108,19,f,Asian,no,no,India,no,5,NO
+109,19,f,Asian,no,no,India,no,3,NO
+110,25,f,White European,no,yes,New Zealand,no,9,YES
+111,23,m,White European,no,no,United Kingdom,no,6,NO
+112,31,m,Asian,no,no,Sri Lanka,no,3,NO
+113,27,m,Asian,no,no,New Zealand,no,4,NO
+114,29,f,Middle Eastern,no,no,United Arab Emirates,no,8,YES
+115,38,f,White European,no,no,United Kingdom,no,7,YES
+116,23,f,American,no,no,United States,no,8,YES
+117,27,m,American,no,no,United States,no,6,NO
+118,27,f,White European,no,no,Canada,no,9,YES
+119,42,m,American,no,no,United States,no,7,YES
+120,20,m,White European,no,no,United Kingdom,no,9,YES
+121,17,f,American,no,no,United States,no,9,YES
+122,20,f,Black,no,no,Spain,no,1,NO
+123,30,m,Asian,yes,no,Sierra Leone,no,7,YES
+124,28,f,White European,no,yes,Australia,no,9,YES
+125,26,f,White European,no,no,New Zealand,no,7,YES
+126,26,f,White European,no,no,Australia,no,0,NO
+127,31,m,Middle Eastern,no,yes,Canada,no,6,NO
+128,40,f,White European,no,no,United Kingdom,no,5,NO
+129,39,f,White European,no,yes,Ireland,no,4,NO
+130,18,f,American,no,no,United States,no,3,NO
+131,24,m,Black,no,no,Ethiopia,no,3,NO
+132,23,m,South Asian,no,no,India,no,3,NO
+133,24,m,Asian,no,no,India,no,5,NO
+134,24,m,Asian,no,no,New Zealand,no,5,NO
+135,27,m,Asian,no,no,New Zealand,no,6,NO
+136,24,m,Asian,no,no,New Zealand,no,5,NO
+137,25,m,Asian,no,no,India,no,2,NO
+138,22,m,Asian,no,no,New Zealand,no,3,NO
+139,40,f,Asian,no,no,New Zealand,no,2,NO
+140,23,m,Asian,no,no,India,no,4,NO
+141,29,m,South Asian,no,no,India,no,2,NO
+142,25,m,Asian,no,no,India,no,3,NO
+143,27,m,Asian,no,no,India,no,4,NO
+144,22,m,South Asian,no,no,New Zealand,no,1,NO
+145,28,m,American,no,no,United States,no,8,YES
+146,20,m,White European,no,no,Australia,no,9,YES
+147,19,f,White European,no,no,Romania,no,10,YES
+148,37,f,American,no,no,United States,no,7,YES
+149,35,m,American,yes,yes,United States,no,8,YES
+150,26,m,Asian,no,no,New Zealand,no,2,NO
+151,23,m,Asian,no,no,Viet Nam,no,7,YES
+152,32,f,South Asian,no,no,New Zealand,no,4,NO
+153,30,m,Asian,no,no,Sri Lanka,no,5,NO
+154,31,m,Asian,no,no,Sri Lanka,no,4,NO
+155,28,f,Asian,no,no,New Zealand,no,3,NO
+156,29,f,Asian,no,no,Sri Lanka,no,4,NO
+157,29,f,South Asian,no,no,Sri Lanka,no,4,NO
+158,29,f,Asian,no,no,India,no,4,NO
+159,31,m,Asian,no,no,India,no,3,NO
+160,36,m,Asian,no,no,India,no,0,NO
+161,32,f,South Asian,no,no,India,no,2,NO
+162,34,f,South Asian,no,no,New Zealand,no,1,NO
+163,24,m,Asian,no,no,Sri Lanka,no,3,NO
+164,24,f,Asian,no,no,New Zealand,no,6,NO
+165,42,m,Asian,no,no,Sri Lanka,no,5,NO
+166,26,f,Others,no,no,India,no,4,NO
+167,27,f,Asian,no,no,Sri Lanka,no,4,NO
+168,36,f,Latino,no,yes,Brazil,no,6,NO
+169,36,f,Latino,no,yes,Brazil,no,8,YES
+170,55,m,American,no,no,United States,no,6,NO
+171,23,f,Asian,no,no,New Zealand,no,4,NO
+172,22,f,Asian,no,no,Sri Lanka,no,4,NO
+173,42,f,Middle Eastern,no,no,France,no,2,NO
+174,54,m,White European,no,no,Canada,no,3,NO
+175,43,f,American,no,no,United States,no,6,NO
+176,43,f,American,no,no,United States,yes,9,YES
+177,29,m,Middle Eastern,no,no,Iran,no,6,NO
+178,29,m,Middle Eastern,no,no,Iran,no,5,NO
+179,37,m,White European,no,no,Australia,no,4,NO
+180,39,f,White European,no,no,Australia,no,4,NO
+181,18,f,Asian,no,no,Viet Nam,no,5,NO
+182,31,m,American,no,no,United States,no,6,NO
+183,34,m,Asian,no,no,New Zealand,no,4,NO
+184,22,m,American,no,no,United States,no,5,NO
+185,28,m,South Asian,no,no,India,no,7,YES
+186,38,m,Others,no,yes,Netherlands,no,4,NO
+187,28,f,White European,no,no,Australia,no,4,NO
+188,53,f,American,no,yes,United States,no,8,YES
+189,26,m,White European,no,no,United Kingdom,no,5,NO
+190,37,m,White European,no,no,United Kingdom,no,9,YES
+191,42,m,Latino,yes,yes,Costa Rica,no,5,NO
+192,43,m,American,no,no,United States,no,3,NO
+193,32,f,Asian,no,no,United Kingdom,no,2,NO
+194,31,m,White European,no,yes,United Kingdom,no,3,NO
+195,53,f,American,no,no,United States,no,9,YES
+196,28,m,American,no,no,United States,no,10,YES
+197,38,m,White European,no,no,Germany,no,9,YES
+198,31,m,American,no,no,United States,no,7,YES
+199,31,f,American,no,yes,United States,no,4,NO
+200,21,f,White European,no,no,Australia,no,9,YES
+201,25,f,American,no,no,United States,no,6,NO
+202,25,f,American,no,no,United States,no,7,YES
+203,60,f,American,no,yes,United States,no,9,YES
+204,39,m,American,no,yes,United States,no,3,NO
+205,53,m,American,no,no,United States,no,10,YES
+206,20,m,American,no,yes,United States,no,10,YES
+207,25,f,American,no,no,United States,yes,7,YES
+208,50,m,White European,no,no,United Kingdom,no,6,NO
+209,28,f,American,no,no,United States,no,8,YES
+210,37,f,White European,no,yes,United Kingdom,no,9,YES
+211,30,m,Asian,no,yes,India,no,5,NO
+212,32,f,White European,no,no,United Kingdom,no,6,NO
+213,34,f,American,no,no,United States,no,4,NO
+214,42,m,American,no,no,United States,no,5,NO
+215,22,f,Black,no,no,Spain,no,8,YES
+216,37,f,Middle Eastern,yes,no,United Arab Emirates,no,4,NO
+217,39,m,American,no,yes,United States,no,4,NO
+218,18,m,White European,no,no,Bangladesh,no,7,YES
+219,54,f,American,no,yes,United States,no,2,NO
+220,42,m,White European,no,no,United Kingdom,no,3,NO
+221,27,f,South Asian,no,no,Afghanistan,no,1,NO
+222,22,m,White European,no,no,United Kingdom,no,6,NO
+223,22,m,White European,no,no,United Kingdom,no,8,YES
+224,21,f,White European,no,no,United Kingdom,no,9,YES
+225,28,f,American,no,no,United States,no,4,NO
+226,17,m,Asian,yes,no,India,no,9,YES
+227,28,m,American,no,no,United States,no,1,NO
+228,21,m,Latino,no,no,Mexico,no,5,NO
+229,31,f,Asian,no,no,New Zealand,no,10,YES
+230,20,m,South Asian,no,no,New Zealand,no,3,NO
+231,21,m,White European,no,no,United Kingdom,no,2,NO
+232,22,m,White European,no,no,New Zealand,no,3,NO
+233,21,m,White European,no,no,New Zealand,no,4,NO
+234,24,m,Black,no,no,New Zealand,no,2,NO
+235,24,m,South Asian,no,no,India,no,2,NO
+236,25,m,Asian,no,no,New Zealand,no,6,NO
+237,17,m,South Asian,no,no,New Zealand,no,2,NO
+238,21,m,White European,no,no,Russia,no,3,NO
+239,23,m,Pasifika,no,no,New Zealand,no,2,NO
+240,21,m,Asian,no,no,New Zealand,no,5,NO
+241,22,m,Others,no,no,New Zealand,no,6,NO
+242,24,f,Asian,no,no,India,no,4,NO
+243,34,m,Others,no,no,New Zealand,no,5,NO
+244,30,m,Asian,no,no,New Zealand,no,6,NO
+245,29,f,Asian,no,no,India,no,4,NO
+246,20,m,Pasifika,no,no,New Zealand,no,5,NO
+247,23,m,White European,no,no,New Zealand,no,6,NO
+248,26,m,Asian,no,no,India,no,2,NO
+249,20,m,South Asian,no,no,New Zealand,no,8,YES
+250,41,m,Asian,no,no,New Zealand,no,3,NO
+251,24,m,Asian,no,no,India,no,4,NO
+252,35,m,Asian,no,no,India,no,2,NO
+253,23,m,South Asian,no,no,India,no,2,NO
+254,36,m,White European,no,no,New Zealand,no,3,NO
+255,33,m,Turkish,no,no,Armenia,no,4,NO
+256,24,m,South Asian,no,no,India,no,5,NO
+257,25,m,Pasifika,no,no,New Zealand,no,4,NO
+258,25,m,Asian,no,no,India,no,5,NO
+259,25,m,Asian,no,no,India,no,5,NO
+260,24,m,Asian,no,no,India,no,3,NO
+261,27,f,South Asian,no,no,India,no,5,NO
+262,26,m,Asian,no,no,India,no,3,NO
+263,26,m,Others,no,no,New Zealand,no,0,NO
+264,23,f,Asian,no,no,India,no,4,NO
+265,30,m,Asian,no,no,New Zealand,no,7,YES
+266,25,m,Asian,no,no,Iceland,no,3,NO
+267,23,m,Pasifika,no,no,New Zealand,no,3,NO
+268,34,f,American,no,no,United States,no,5,NO
+269,20,f,Asian,no,no,New Zealand,no,6,NO
+270,22,f,White European,no,yes,Russia,no,7,YES
+271,33,f,Black,no,yes,France,no,7,YES
+272,46,m,White European,no,no,Netherlands,no,10,YES
+273,17,m,White European,no,no,United Kingdom,no,2,NO
+274,45,f,American,no,yes,United States,no,4,NO
+275,26,m,Asian,no,no,India,no,4,NO
+276,30,m,Middle Eastern,no,no,Jordan,no,3,NO
+277,32,f,Middle Eastern,no,yes,Jordan,no,2,NO
+278,38,f,White European,no,no,United Kingdom,no,9,YES
+279,26,m,Hispanic,yes,no,Nicaragua,no,3,NO
+280,29,f,American,no,yes,United States,no,1,NO
+281,33,m,White European,no,no,Australia,no,8,YES
+282,32,f,Black,no,no,France,no,7,YES
+283,44,f,American,no,no,United States,no,10,YES
+284,47,f,White European,yes,no,United Kingdom,no,3,NO
+285,32,f,Asian,no,no,Hong Kong,no,6,NO
+286,40,m,White European,no,no,New Zealand,no,0,NO
+287,40,m,American,no,no,United States,no,5,NO
+288,44,f,White European,no,no,New Zealand,no,0,NO
+289,56,m,White European,yes,no,United Kingdom,no,8,YES
+290,23,f,White European,no,no,Ireland,no,8,YES
+291,32,f,Black,no,no,Canada,no,7,YES
+292,27,m,White European,no,yes,United Kingdom,no,5,NO
+293,28,f,White European,no,yes,United Kingdom,no,4,NO
+294,40,f,Middle Eastern,no,no,Afghanistan,no,0,NO
+295,45,f,White European,no,no,Canada,no,7,YES
+296,19,f,White European,yes,no,United Kingdom,no,8,YES
+297,55,m,American,no,yes,United States,no,8,YES
+298,27,f,White European,yes,no,Australia,no,5,NO
+299,19,f,White European,yes,no,United Kingdom,no,9,YES
+300,29,m,White European,no,no,Ireland,no,3,NO
+301,33,f,White European,yes,no,United Kingdom,no,10,YES
+302,48,f,White European,no,no,Netherlands,no,6,NO
+303,37,f,Others,no,no,United Kingdom,no,2,NO
+304,30,m,Asian,no,no,Afghanistan,no,6,NO
+305,37,f,White European,no,no,United Kingdom,no,4,NO
+306,28,f,Middle Eastern,no,no,Saudi Arabia,no,7,YES
+307,20,f,White European,no,no,Austria,no,8,YES
+308,25,f,American,no,no,United States,no,8,YES
+309,58,f,Middle Eastern,no,no,United Kingdom,no,7,YES
+310,36,f,American,no,no,United States,no,2,NO
+311,36,m,American,yes,no,United States,no,4,NO
+312,19,m,American,no,no,United States,no,7,YES
+313,19,m,American,no,no,United States,yes,7,YES
+314,22,f,White European,no,no,New Zealand,no,5,NO
+315,20,m,Middle Eastern,no,no,United Arab Emirates,no,3,NO
+316,24,f,Middle Eastern,no,no,United Arab Emirates,no,4,NO
+317,19,m,Middle Eastern,no,no,United Arab Emirates,no,4,NO
+318,21,m,Others,no,no,United Arab Emirates,no,6,NO
+319,20,m,Middle Eastern,no,no,United Arab Emirates,no,0,NO
+320,18,f,Middle Eastern,no,no,United Arab Emirates,no,2,NO
+321,23,f,Middle Eastern,no,no,United Arab Emirates,no,4,NO
+322,22,m,Middle Eastern,no,no,United Arab Emirates,no,8,YES
+323,18,f,South Asian,no,yes,Bangladesh,no,4,NO
+324,37,f,Middle Eastern,no,no,United Arab Emirates,no,2,NO
+325,18,m,Middle Eastern,no,no,United Arab Emirates,no,5,NO
+326,18,m,Middle Eastern,no,no,United Arab Emirates,no,5,NO
+327,18,m,Middle Eastern,no,no,United Arab Emirates,no,2,NO
+328,18,m,Middle Eastern,no,no,United Arab Emirates,no,4,NO
+329,18,m,Middle Eastern,no,no,United Arab Emirates,no,3,NO
+330,18,m,Middle Eastern,no,no,United Arab Emirates,no,4,NO
+331,19,m,White European,no,no,Austria,no,10,YES
+332,55,m,White European,no,no,United Kingdom,no,7,YES
+333,32,f,Asian,no,no,Canada,no,5,NO
+334,50,m,White European,yes,no,United Kingdom,no,5,NO
+335,40,m,White European,no,no,United Kingdom,no,6,NO
+336,47,m,Middle Eastern,no,no,Jordan,no,4,NO
+337,20,m,Middle Eastern,no,no,Jordan,no,3,NO
+338,22,f,Middle Eastern,no,no,Jordan,no,4,NO
+339,21,f,Middle Eastern,no,no,Jordan,no,2,NO
+340,21,f,Middle Eastern,no,no,Jordan,no,6,NO
+341,19,m,Middle Eastern,no,no,Jordan,no,6,NO
+342,21,f,Middle Eastern,no,no,Jordan,no,3,NO
+343,21,m,Middle Eastern,no,no,Jordan,no,2,NO
+344,23,f,Middle Eastern,no,no,Jordan,no,5,NO
+345,21,m,Middle Eastern,no,no,Jordan,no,1,NO
+346,21,m,Middle Eastern,no,no,Jordan,no,5,NO
+347,23,m,Middle Eastern,no,no,Jordan,no,1,NO
+348,20,f,Middle Eastern,no,no,Jordan,no,8,YES
+349,21,f,Middle Eastern,no,no,Jordan,no,5,NO
+350,20,m,South American,no,no,Argentina,no,8,YES
+351,19,m,Middle Eastern,no,no,Jordan,no,4,NO
+352,21,m,Middle Eastern,no,no,Jordan,no,2,NO
+353,26,m,Middle Eastern,no,yes,Jordan,no,3,NO
+354,21,m,Middle Eastern,no,no,Jordan,no,2,NO
+355,19,m,Asian,no,no,Japan,no,2,NO
+356,22,m,Middle Eastern,no,no,United Arab Emirates,no,4,NO
+357,19,f,Middle Eastern,no,no,United Arab Emirates,no,2,NO
+358,22,m,Middle Eastern,no,no,United Arab Emirates,no,4,NO
+359,20,m,Middle Eastern,no,no,United Arab Emirates,no,2,NO
+360,23,m,Middle Eastern,no,no,United Arab Emirates,no,4,NO
+361,19,f,White European,no,no,Ukraine,no,2,NO
+362,20,m,Middle Eastern,no,no,United Arab Emirates,no,3,NO
+363,24,m,Middle Eastern,no,no,United Arab Emirates,no,2,NO
+364,19,m,Middle Eastern,no,no,United Arab Emirates,no,4,NO
+365,20,m,Middle Eastern,no,no,United Arab Emirates,no,4,NO
+366,23,m,Middle Eastern,no,yes,United Arab Emirates,no,5,NO
+367,20,m,Others,no,no,Russia,no,4,NO
+368,20,m,Middle Eastern,no,no,United Arab Emirates,no,5,NO
+369,20,m,Middle Eastern,yes,no,United Arab Emirates,no,2,NO
+370,20,f,Middle Eastern,no,no,United Arab Emirates,no,3,NO
+371,21,f,Asian,no,no,Afghanistan,no,5,NO
+372,19,m,Asian,no,no,Kazakhstan,no,2,NO
+373,20,f,Middle Eastern,no,no,United Arab Emirates,no,3,NO
+374,20,m,Middle Eastern,no,no,Saudi Arabia,no,5,NO
+375,25,m,Middle Eastern,yes,yes,Armenia,yes,3,NO
+376,20,f,Middle Eastern,no,no,United Arab Emirates,no,2,NO
+377,22,m,Middle Eastern,no,no,AmericanSamoa,no,5,NO
+378,20,f,Middle Eastern,no,no,United Arab Emirates,no,2,NO
+379,20,m,Middle Eastern,no,no,United Arab Emirates,no,3,NO
+380,20,f,Middle Eastern,no,no,Jordan,no,2,NO
+381,23,f,Middle Eastern,no,no,Jordan,no,2,NO
+382,21,f,Middle Eastern,no,no,Jordan,no,8,YES
+383,22,m,Middle Eastern,no,no,Jordan,no,4,NO
+384,21,f,Middle Eastern,no,no,Jordan,no,3,NO
+385,20,f,Middle Eastern,no,no,Jordan,no,3,NO
+386,22,f,Middle Eastern,no,no,Jordan,no,2,NO
+387,21,f,Middle Eastern,yes,no,Jordan,no,6,NO
+388,20,f,Middle Eastern,no,no,Jordan,no,4,NO
+389,20,f,Middle Eastern,no,no,United Arab Emirates,no,2,NO
+390,21,m,Middle Eastern,no,no,Jordan,no,3,NO
+391,21,m,Middle Eastern,no,no,United Arab Emirates,no,6,NO
+392,23,f,Middle Eastern,no,no,United Arab Emirates,no,4,NO
+393,21,f,Turkish,no,no,United Arab Emirates,no,3,NO
+394,22,f,Black,no,no,United Arab Emirates,no,5,NO
+395,19,f,Middle Eastern,no,no,United Arab Emirates,no,5,NO
+396,20,f,Asian,no,no,United Arab Emirates,no,4,NO
+397,21,f,Others,no,no,United Arab Emirates,no,3,NO
+398,26,m,Middle Eastern,no,no,United Arab Emirates,no,3,NO
+399,19,f,Asian,no,no,Kazakhstan,no,1,NO
+400,20,f,Middle Eastern,no,no,United Arab Emirates,no,5,NO
+401,26,f,Middle Eastern,no,no,United Arab Emirates,no,3,NO
+402,23,f,Black,no,no,United Arab Emirates,no,4,NO
+403,28,f,Middle Eastern,no,no,United Arab Emirates,no,4,NO
+404,19,f,Middle Eastern,no,no,United Arab Emirates,no,3,NO
+405,20,f,Middle Eastern,no,no,United Arab Emirates,no,3,NO
+406,19,f,Black,no,no,United Arab Emirates,no,5,NO
+407,24,m,Asian,no,no,India,no,8,YES
+408,19,f,South Asian,no,no,United Arab Emirates,no,5,NO
+409,22,f,Middle Eastern,no,no,United Arab Emirates,no,2,NO
+410,20,f,Middle Eastern,no,no,United Arab Emirates,no,4,NO
+411,21,m,Middle Eastern,no,no,United Arab Emirates,no,3,NO
+412,24,f,Others,no,no,United Arab Emirates,no,4,NO
+413,18,f,Middle Eastern,no,no,United Arab Emirates,no,4,NO
+414,19,f,Middle Eastern,no,no,United Arab Emirates,no,7,YES
+415,19,f,Middle Eastern,no,no,United Arab Emirates,no,2,NO
+416,31,m,Middle Eastern,yes,no,United Arab Emirates,no,4,NO
+417,19,m,Middle Eastern,no,no,United Arab Emirates,no,5,NO
+418,21,f,Middle Eastern,no,no,United Arab Emirates,no,4,NO
+419,20,m,Middle Eastern,no,no,United Arab Emirates,no,4,NO
+420,26,f,Middle Eastern,no,no,United Arab Emirates,no,6,NO
+421,27,m,Middle Eastern,no,no,Afghanistan,no,1,NO
+422,23,f,Middle Eastern,no,no,United Arab Emirates,no,4,NO
+423,29,f,Middle Eastern,no,no,United Arab Emirates,no,2,NO
+424,23,m,Middle Eastern,no,no,United Arab Emirates,no,5,NO
+425,23,m,Turkish,no,no,United Arab Emirates,no,4,NO
+426,24,m,Asian,no,yes,India,no,8,YES
+427,21,m,Middle Eastern,no,no,Jordan,no,4,NO
+428,20,f,South American,no,no,Brazil,yes,2,NO
+429,20,m,Middle Eastern,no,no,Jordan,no,6,NO
+430,32,f,Black,no,no,France,no,9,YES
+431,61,m,White European,yes,yes,Uruguay,no,10,YES
+432,19,m,Middle Eastern,no,no,Jordan,no,3,NO
+433,35,f,White European,no,no,Italy,no,8,YES
+434,34,f,White European,no,no,Ukraine,yes,3,NO
+435,23,f,Middle Eastern,no,no,United Arab Emirates,yes,2,NO
+436,19,f,White European,no,no,Serbia,no,5,NO
+437,36,f,Others,no,no,Philippines,no,6,NO
+438,21,f,Middle Eastern,no,no,Jordan,no,4,NO
+439,23,m,American,no,no,United States,no,2,NO
+440,17,m,American,no,no,United States,no,6,NO
+441,22,m,White European,no,no,Portugal,no,2,NO
+442,33,m,White European,no,yes,Australia,no,6,NO
+443,23,f,Asian,no,no,Malaysia,no,7,YES
+444,35,f,White European,no,yes,Sweden,no,7,YES
+445,21,m,White European,no,yes,Australia,no,3,NO
+446,20,f,White European,no,no,Austria,no,7,YES
+447,29,m,White European,no,no,Netherlands,no,2,NO
+448,59,m,American,no,no,United States,no,9,YES
+449,18,f,White European,no,no,Netherlands,no,5,NO
+450,19,f,Middle Eastern,no,no,United Arab Emirates,no,3,NO
+451,24,m,Middle Eastern,no,no,United Arab Emirates,no,3,NO
+452,36,f,White European,no,no,Italy,no,7,YES
+453,19,f,Middle Eastern,yes,no,Jordan,no,4,NO
+454,17,f,Black,no,no,United Arab Emirates,no,3,NO
+455,52,m,White European,yes,no,United Kingdom,no,3,NO
+456,18,m,Middle Eastern,no,no,United Arab Emirates,no,4,NO
+457,30,m,Asian,no,no,Philippines,no,1,NO
+458,18,m,Middle Eastern,yes,no,New Zealand,no,8,YES
+459,27,m,Latino,no,no,Ecuador,no,6,NO
+460,52,f,White European,no,no,United Kingdom,no,1,NO
+461,45,f,Asian,no,no,Viet Nam,no,1,NO
+462,25,f,Others,no,no,Afghanistan,no,6,NO
+463,29,f,White European,no,no,United Kingdom,no,3,NO
+464,29,f,American,yes,no,United States,no,8,YES
+465,18,m,White European,no,yes,Netherlands,no,3,NO
+466,18,m,White European,no,no,Netherlands,no,7,YES
+467,17,m,White European,no,no,Netherlands,no,5,NO
+468,27,f,American,no,no,United States,no,10,YES
+469,22,f,Asian,yes,no,Malaysia,no,1,NO
+470,23,m,Asian,no,no,India,no,3,NO
+471,25,m,Latino,no,no,United Kingdom,no,7,YES
+472,23,f,South Asian,no,no,New Zealand,no,4,NO
+473,29,m,Asian,no,no,India,no,3,NO
+474,27,f,Asian,no,no,Sri Lanka,no,4,NO
+475,27,f,Asian,no,no,India,no,3,NO
+476,43,f,South Asian,no,no,India,no,0,NO
+477,26,f,Asian,no,no,India,no,2,NO
+478,30,f,Asian,no,no,India,no,4,NO
+479,23,m,White European,no,no,India,no,1,NO
+480,29,f,Asian,no,no,Sri Lanka,no,4,NO
+481,37,m,White European,no,no,United Kingdom,no,2,NO
+482,28,f,White European,no,no,United Kingdom,no,2,NO
+483,25,m,American,no,no,United States,no,6,NO
+484,25,m,Others,no,no,India,no,5,NO
+485,21,m,Middle Eastern,no,no,Jordan,no,3,NO
+486,43,m,White European,no,no,United Kingdom,no,9,YES
+487,30,f,American,no,no,United States,no,7,YES
+488,18,m,Black,no,no,Niger,no,4,NO
+489,18,f,White European,no,no,Romania,no,5,NO
+490,30,m,Others,no,no,Canada,no,7,YES
+491,31,f,White European,no,no,Germany,no,0,NO
+492,33,m,Latino,no,no,Mexico,no,5,NO
+493,33,m,Latino,no,no,Mexico,no,10,YES
+494,26,m,White European,no,no,United Kingdom,no,6,NO
+495,61,f,American,no,no,United States,no,3,NO
+496,46,m,Others,no,no,Viet Nam,no,3,NO
+497,33,m,Asian,no,no,India,no,8,YES
+498,38,f,Black,no,no,Canada,no,8,YES
+499,44,m,Black,no,no,France,no,3,NO
+500,48,f,Black,no,yes,France,no,5,NO
+501,42,f,Latino,yes,no,Mexico,no,8,YES
+502,37,m,White European,no,no,Belgium,no,4,NO
+503,23,f,White European,no,yes,United Kingdom,no,6,NO
+504,24,m,White European,no,yes,United Kingdom,no,8,YES
+505,41,m,White European,yes,yes,United Kingdom,no,6,NO
+506,41,m,Asian,no,no,United Kingdom,no,4,NO
+507,27,m,White European,no,no,Belgium,no,4,NO
+508,46,f,White European,yes,yes,United Kingdom,no,10,YES
+509,40,f,American,yes,no,United States,no,2,NO
+510,22,f,American,no,no,United States,no,8,YES
+511,42,m,White European,no,no,United Kingdom,no,9,YES
+512,18,f,Asian,no,no,Viet Nam,no,4,NO
+513,44,f,White European,no,no,United Kingdom,no,3,NO
+514,30,f,American,no,no,United States,no,9,YES
+515,42,m,White European,no,no,Australia,no,9,YES
+516,35,f,American,no,yes,United States,no,4,NO
+517,40,m,Black,no,no,AmericanSamoa,no,7,YES
+518,50,f,Pasifika,no,no,New Zealand,no,3,NO
+519,38,m,Middle Eastern,no,no,Egypt,no,3,NO
+520,26,f,White European,no,yes,Italy,no,8,YES
+521,27,f,White European,no,no,Malaysia,no,7,YES
+522,47,f,American,yes,yes,United States,no,7,YES
+523,21,m,American,yes,yes,United States,no,6,NO
+524,37,m,White European,no,no,United Kingdom,no,8,YES
+525,19,f,Others,no,no,United Kingdom,no,4,NO
+526,32,m,Asian,no,no,United Arab Emirates,no,4,NO
+527,26,f,Middle Eastern,no,no,Iran,no,3,NO
+528,46,f,White European,yes,yes,Australia,no,10,YES
+529,29,m,Black,no,no,France,no,2,NO
+530,30,f,Black,no,no,France,no,2,NO
+531,32,f,Latino,no,no,Bolivia,no,4,NO
+532,35,f,American,yes,no,United States,no,4,NO
+533,22,m,White European,no,no,United Kingdom,no,9,YES
+534,19,f,Middle Eastern,no,no,Iran,no,4,NO
+535,24,m,Middle Eastern,no,no,Iran,no,3,NO
+536,52,f,Middle Eastern,no,no,Iran,no,2,NO
+537,52,m,Middle Eastern,no,no,Iran,no,5,NO
+538,32,f,American,no,no,United States,no,4,NO
+539,24,m,American,no,no,United States,no,6,NO
+540,24,m,American,no,no,United States,no,9,YES
+541,49,f,Middle Eastern,yes,no,New Zealand,no,1,NO
+542,30,f,Asian,no,no,Malaysia,no,9,YES
+543,30,f,Asian,no,yes,Malaysia,yes,9,YES
+544,35,f,White European,yes,no,United Kingdom,no,9,YES
+545,35,f,White European,yes,no,United Kingdom,no,7,YES
+546,37,f,White European,no,yes,United Kingdom,no,4,NO
+547,43,m,White European,no,no,United Kingdom,no,5,NO
+548,52,m,White European,no,no,United Kingdom,no,6,NO
+549,44,m,White European,no,yes,United Kingdom,no,10,YES
+550,46,f,White European,no,yes,United Kingdom,no,2,NO
+551,42,f,White European,no,yes,Australia,no,3,NO
+552,20,m,Asian,no,no,Aruba,no,1,NO
+553,18,m,Middle Eastern,no,no,New Zealand,no,7,YES
+554,38,m,White European,no,no,Finland,no,9,YES
+555,24,f,Latino,no,yes,Mexico,no,4,NO
+556,32,m,Middle Eastern,no,no,Jordan,no,3,NO
+557,29,m,American,no,no,United States,no,4,NO
+558,22,f,American,no,no,United States,no,9,YES
+559,19,f,White European,yes,no,United Kingdom,no,6,NO
+560,39,f,American,no,yes,United States,no,9,YES
+561,17,m,American,no,no,United States,no,8,YES
+562,19,f,Middle Eastern,no,no,Iceland,no,6,NO
+563,18,m,White European,no,no,Australia,no,4,NO
+564,19,m,Asian,no,no,Kazakhstan,yes,4,NO
+565,28,f,Turkish,no,no,Turkey,no,2,NO
+566,29,m,Asian,no,no,New Zealand,no,4,NO
+567,48,m,White European,no,no,Australia,no,4,NO
+568,27,f,White European,yes,yes,Netherlands,no,9,YES
+569,34,f,White European,no,no,United Kingdom,no,3,NO
+570,31,m,White European,no,no,Australia,no,4,NO
+571,47,m,Middle Eastern,no,no,Jordan,no,3,NO
+572,47,m,Middle Eastern,no,no,Jordan,no,3,NO
+573,44,m,White European,no,yes,United Kingdom,no,10,YES
+574,25,f,American,no,no,United States,no,4,NO
+575,25,f,American,no,no,United States,no,4,NO
+576,20,m,White European,no,no,United Kingdom,no,8,YES
+577,43,m,White European,yes,no,New Zealand,no,9,YES
+578,36,f,White European,no,yes,United Kingdom,no,8,YES
+579,30,f,American,no,yes,United States,no,3,NO
+580,44,m,Black,no,no,United Kingdom,no,2,NO
+581,40,f,Black,no,no,United Kingdom,no,4,NO
+582,40,f,Black,yes,no,United Kingdom,no,6,NO
+583,40,f,Black,yes,yes,United Kingdom,no,7,YES
+584,30,m,American,no,no,United States,no,7,YES
+585,47,f,White European,no,no,United Kingdom,no,5,NO
+586,21,m,Black,no,no,Brazil,no,10,YES
+587,21,m,Black,no,no,Brazil,no,9,YES
+588,31,f,Pasifika,no,no,New Zealand,no,9,YES
+589,21,f,Asian,no,no,New Zealand,no,3,NO
+590,29,f,American,no,no,United States,no,5,NO
+591,22,m,Middle Eastern,no,no,Afghanistan,no,6,NO
+592,51,m,White European,yes,no,United Kingdom,no,10,YES
+593,23,m,White European,no,no,Russia,no,1,NO
+594,30,m,Asian,no,no,India,no,4,NO
+595,22,m,Others,no,no,India,no,3,NO
+596,22,m,Asian,no,no,New Zealand,no,4,NO
+597,24,m,Asian,no,no,India,no,5,NO
+598,26,f,South Asian,no,no,India,no,3,NO
+599,33,f,Asian,no,no,India,no,6,NO
+600,23,m,Asian,no,no,India,no,3,NO
+601,42,f,Asian,no,no,India,no,3,NO
+602,26,f,Asian,no,no,India,no,2,NO
+603,29,f,Asian,no,no,New Zealand,no,2,NO
+604,35,f,Asian,no,no,India,no,3,NO
+605,25,f,South Asian,no,no,India,no,4,NO
+606,25,m,Asian,no,no,Sri Lanka,no,3,NO
+607,28,f,Asian,yes,no,India,no,1,NO
+608,33,m,White European,no,no,Germany,no,1,NO
+609,25,m,Asian,no,no,India,no,4,NO
+610,25,m,Asian,no,no,India,no,5,NO
+611,24,m,Asian,no,no,India,no,4,NO
+612,27,f,South Asian,no,no,India,no,5,NO
+613,22,m,South Asian,no,no,India,no,1,NO
+614,21,f,South Asian,no,no,India,no,5,NO
+615,27,f,South Asian,no,no,India,no,6,NO
+616,23,m,South Asian,no,no,India,no,3,NO
+617,22,m,Asian,no,no,India,no,4,NO
+618,23,f,South Asian,no,no,India,no,2,NO
+619,30,m,Asian,no,no,India,no,4,NO
+620,33,m,Asian,no,no,India,no,4,NO
+621,24,f,South Asian,no,no,India,no,7,YES
+622,22,f,Asian,no,no,New Zealand,no,4,NO
+623,22,m,Asian,no,no,New Zealand,no,7,YES
+624,29,f,South Asian,no,no,India,no,3,NO
+625,22,f,Asian,no,no,India,no,6,NO
+626,21,m,Asian,yes,no,India,no,3,NO
+627,23,m,Asian,no,no,India,no,3,NO
+628,23,f,Others,no,no,India,no,5,NO
+629,23,f,Asian,no,no,India,no,6,NO
+630,32,m,Asian,no,no,Sri Lanka,no,6,NO
+631,27,m,Asian,no,no,Sri Lanka,no,2,NO
+632,28,f,Asian,no,no,India,no,2,NO
+633,25,f,Middle Eastern,no,no,India,no,6,NO
+634,22,m,Black,no,no,Nepal,no,7,YES
+635,36,m,White European,no,no,United Kingdom,no,4,NO
+636,27,f,White European,no,no,Russia,no,0,NO
+637,21,f,White European,no,no,Germany,no,10,YES
+638,18,m,American,no,no,United States,no,5,NO
+639,49,m,Black,no,no,Mexico,no,7,YES
+640,18,m,Asian,no,no,Indonesia,no,4,NO
+641,29,m,American,no,no,United States,no,7,YES
+642,31,f,Pasifika,no,no,New Zealand,no,2,NO
+643,37,f,Middle Eastern,no,no,New Zealand,no,1,NO
+644,17,m,Middle Eastern,yes,no,New Zealand,no,6,NO
+645,17,m,Pasifika,no,yes,New Zealand,no,7,YES
+646,38,f,Middle Eastern,no,no,Jordan,no,4,NO
+647,18,m,White European,yes,no,Angola,no,5,NO
+648,31,f,Middle Eastern,no,no,United Arab Emirates,no,4,NO
+649,33,m,Middle Eastern,yes,no,United Arab Emirates,yes,3,NO
+650,32,f,Middle Eastern,yes,no,Jordan,no,2,NO
+651,30,m,Middle Eastern,yes,no,Jordan,no,3,NO
+652,33,f,American,no,no,United States,no,1,NO
+653,30,f,White European,no,yes,Canada,no,10,YES
+654,30,m,American,no,no,United States,no,9,YES
+655,38,f,White European,no,yes,United Kingdom,no,5,NO
+656,22,m,Asian,no,no,India,no,5,NO
+657,36,m,American,no,no,United States,no,5,NO
+658,43,m,Middle Eastern,no,no,Azerbaijan,no,3,NO
+659,44,m,South Asian,no,no,Pakistan,no,8,YES
+660,20,f,White European,no,no,France,no,8,YES
+661,40,f,Others,yes,yes,Australia,no,9,YES
+662,25,m,White European,no,no,Italy,no,5,NO
+663,28,m,White European,no,no,Australia,no,4,NO
+664,17,m,White European,no,no,Canada,no,3,NO
+665,34,m,American,no,no,United States,no,9,YES
+666,56,m,Middle Eastern,no,no,Iraq,no,1,NO
+667,50,f,Middle Eastern,no,no,New Zealand,no,3,NO
+668,38,m,American,no,no,United States,no,4,NO
+669,47,m,American,no,no,United States,no,10,YES
+670,30,m,American,no,no,United States,no,9,YES
+671,21,m,American,no,no,United States,no,7,YES
+672,21,m,White European,no,no,Ireland,no,8,YES
+673,31,m,Latino,no,no,Mexico,no,8,YES
+674,27,f,White European,yes,no,Czech Republic,no,6,NO
+675,24,f,American,yes,no,United States,no,5,NO
+676,35,m,White European,yes,no,United Kingdom,no,4,NO
+677,18,m,Black,no,no,Ethiopia,no,3,NO
+678,43,f,American,no,no,United States,no,8,YES
+679,44,m,White European,no,yes,Afghanistan,no,10,YES
+680,40,m,White European,yes,yes,United Kingdom,no,10,YES
+681,49,f,American,no,no,United States,no,9,YES
+682,24,m,American,no,no,United States,no,3,NO
+683,30,f,American,yes,yes,United States,no,4,NO
+684,53,m,American,no,no,United States,no,4,NO
+685,38,m,White European,no,yes,Belgium,no,7,YES
+686,28,m,American,no,no,United States,no,5,NO
+687,28,m,American,no,no,United States,no,9,YES
+688,26,m,Black,no,no,Canada,no,8,YES
+689,39,f,White European,no,no,Canada,no,7,YES
+690,31,f,Asian,yes,no,India,no,1,NO
+691,24,m,American,no,no,United States,no,4,NO
+692,28,m,American,no,no,United States,no,8,YES
+693,31,f,White European,no,no,United Kingdom,no,4,NO
+694,27,m,American,yes,no,United States,no,7,YES
+695,28,m,Latino,no,no,Brazil,yes,5,NO
+696,31,m,Turkish,no,yes,Australia,no,9,YES
+697,46,f,Asian,no,no,Philippines,no,6,NO
+698,27,f,Pasifika,no,no,Australia,no,10,YES
+699,25,f,White European,no,no,Russia,no,7,YES
+700,34,m,Hispanic,no,no,Mexico,no,3,NO
+701,24,f,White European,no,no,Russia,no,7,YES
+702,35,m,South Asian,no,no,Pakistan,no,6,NO
+703,26,f,White European,no,no,Cyprus,no,8,YES
