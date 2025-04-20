@@ -117,8 +117,6 @@ with tab2:
 
             st.markdown("### 🧮 **Your AQ-10 Score**")
             st.info(f"**Score: {sum(aq_scores)}/10**")
-            if sum(aq_scores) >= 6:
-                st.warning("**Note:** A higher AQ score (6 or above) might indicate potential ASD traits. Please consult with a healthcare professional.")
 
             st.markdown("### 📋 **Your Inputs Summary**")
             st.write("#### **Demographics**")
