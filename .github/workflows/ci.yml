@@ -32,4 +32,4 @@ jobs:
     - name: Run unit tests
       run: |
         pip install pytest
-        pytest -v test_asd_tool.py
+        pytest test_asd_tool.py
