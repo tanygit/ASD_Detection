@@ -2,3 +2,4 @@ venv/
 .ipynb_checkpoints/
 *.ipynb
 *.csv
+asd_screening.db

@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+import sqlite3
+from datetime import datetime
 from tensorflow.keras.models import load_model
 from info import ethnicity_mapping, ethnicity_code_mapping, aq_questions
 
@@ -11,6 +13,52 @@ st.title("Autism Spectrum Disorder (ASD) Screening Tool")
 st.markdown("""
 This app uses both Machine Learning and Deep Learning models to screen for ASD based on the AQ-10 questionnaire.
 """)
+
+# Initialize database
+def init_db():
+    conn = sqlite3.connect('asd_screening.db')
+    c = conn.cursor()
+    c.execute('''
+    CREATE TABLE IF NOT EXISTS screenings (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT,
+        age INTEGER,
+        gender TEXT,
+        country TEXT,
+        ethnicity TEXT,
+        jaundice TEXT,
+        autism_family TEXT,
+        aq_responses TEXT,
+        aq_scores TEXT,
+        total_score INTEGER,
+        ml_prediction INTEGER,
+        dnn_prediction INTEGER,
+        timestamp DATETIME
+    )
+    ''')
+    conn.commit()
+    conn.close()
+
+# Save data to database
+def save_to_db(name, age, gender, country, ethnicity, jaundice, autism_family, 
+               aq_responses, aq_scores, total_score, ml_prediction, dnn_prediction):
+    conn = sqlite3.connect('asd_screening.db')
+    c = conn.cursor()
+    c.execute('''
+    INSERT INTO screenings (
+        name, age, gender, country, ethnicity, jaundice, autism_family,
+        aq_responses, aq_scores, total_score, ml_prediction, dnn_prediction, timestamp
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ''', (
+        name, age, gender, country, ethnicity, jaundice, autism_family,
+        str(aq_responses), str(aq_scores), total_score, ml_prediction, dnn_prediction, 
+        datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    ))
+    conn.commit()
+    conn.close()
+
+# Initialize the database when the app loads
+init_db()
 
 @st.cache_resource
 def load_models():
@@ -29,6 +77,9 @@ tab1, tab2 = st.tabs(["📝 Screening Form", "📊 Results"])
 
 with tab1:
     with st.form("asd_form"):
+        # Add name field at the top
+        name = st.text_input("Full Name", placeholder="Enter your name")
+        
         aq_responses = []
         for i, question in enumerate(aq_questions, 1):
             st.write(f"**Q{i}: {question}**")
@@ -61,7 +112,7 @@ with tab1:
 with tab2:
     if submitted:
         if (None in aq_responses or "" in aq_responses or not age or gender == "" or 
-            country == "" or jaundice == "" or autism_family == ""):
+            country == "" or jaundice == "" or autism_family == "" or not name):
             st.error("Please fill all the fields in the form tab before viewing results.")
         else:
             aq_scores = []
@@ -91,6 +142,13 @@ with tab2:
                 prediction_ml = ml_model.predict(input_data)[0]
                 prediction_dnn_prob = dnn_model.predict(input_data, verbose=0)[0][0]
                 prediction_dnn = int(prediction_dnn_prob >= 0.5)
+                
+                # Save data to the database after successful predictions
+                save_to_db(
+                    name, age, gender, country, ethnicity, jaundice, autism_family,
+                    aq_responses, aq_scores, sum(aq_scores), int(prediction_ml), prediction_dnn
+                )
+                
             except Exception as e:
                 st.error(f"Prediction failed: {e}")
                 st.stop()
@@ -98,6 +156,7 @@ with tab2:
             st.subheader("Screening Results")
 
             # Create a More Structured Layout for Results
+            st.markdown(f"### Results for: {name}")
             st.markdown("### 🔍 **Model-Based Results**")
             col1, col2 = st.columns(2)
 
@@ -121,8 +180,8 @@ with tab2:
             st.markdown("### 📋 **Your Inputs Summary**")
             st.write("#### **Demographics**")
             st.table(pd.DataFrame({
-                "Category": ["Age", "Gender", "Country", "Ethnicity", "Jaundice", "Family Member with ASD"],
-                "Response": [age, gender, country, ethnicity, jaundice, autism_family]
+                "Category": ["Name", "Age", "Gender", "Country", "Ethnicity", "Jaundice", "Family Member with ASD"],
+                "Response": [name, age, gender, country, ethnicity, jaundice, autism_family]
             }))
 
             st.write("#### **AQ-10 Responses Breakdown**")
@@ -144,7 +203,7 @@ with tab2:
             }))
 
             st.markdown("### 📝 **Conclusion**")
-            if prediction_ml == 1 or prediction_dnn == 1 or sum(aq_scores) >= 6:
+            if prediction_ml == 1 or prediction_dnn == 1:
                 st.warning("""
                     Based on the models' predictions and your AQ-10 score, there may be some traits consistent with ASD.
                     **However, please note**: This is not a diagnostic tool, and you should seek a professional assessment for further evaluation.
@@ -154,7 +213,8 @@ with tab2:
                     Based on the results, there is no indication of significant ASD traits.
                     **However**, if you have concerns or observe other symptoms, consider consulting a professional for further evaluation.
                 """)
-
+            
+            st.success("Your screening data has been saved.")
             st.warning("""**Disclaimer**: This is not a diagnostic tool. Please consult a licensed medical professional for diagnosis.""")
 
     else:
