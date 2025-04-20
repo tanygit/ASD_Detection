@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-import os
 from tensorflow.keras.models import load_model
 
 st.set_page_config(page_title="ASD Screening Tool", layout="wide")

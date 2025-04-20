@@ -2,3 +2,4 @@ venv/
 .ipynb_checkpoints/
 *.ipynb
 *.csv
+test_asd_tool.py
