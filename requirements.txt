@@ -2,7 +2,7 @@
 streamlit==1.33.0
 
 # Machine Learning & Deep Learning
-scikit-learn==1.4.1
+scikit-learn==1.4.1.post1
 tensorflow==2.15.0
 keras==2.15.0
 
