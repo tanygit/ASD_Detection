@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: asd-screening-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: asd-screening-app
+  template:
+    metadata:
+      labels:
+        app: asd-screening-app
+    spec:
+      containers:
+        - name: asd-screening-app
+          image: tan518/asd-screening-app:latest
+          ports:
+            - containerPort: 8501
