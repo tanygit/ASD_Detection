@@ -14,9 +14,11 @@ st.markdown("""
 This app uses both Machine Learning and Deep Learning models to screen for ASD based on the AQ-10 questionnaire.
 """)
 
+DB_PATH = 'asd_screening.db'
+
 # Initialize database
 def init_db():
-    conn = sqlite3.connect('asd_screening.db')
+    conn = sqlite3.connect(DB_PATH)
     c = conn.cursor()
     c.execute('''
     CREATE TABLE IF NOT EXISTS screenings (
@@ -42,7 +44,7 @@ def init_db():
 # Save data to database
 def save_to_db(name, age, gender, country, ethnicity, jaundice, autism_family, 
                aq_responses, aq_scores, total_score, ml_prediction, dnn_prediction):
-    conn = sqlite3.connect('asd_screening.db')
+    conn = sqlite3.connect(DB_PATH)
     c = conn.cursor()
     c.execute('''
     INSERT INTO screenings (
