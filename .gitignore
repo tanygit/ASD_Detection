@@ -4,3 +4,4 @@ __pycache__/
 *.ipynb
 *.csv
 asd_screening.db
+__pycache__
